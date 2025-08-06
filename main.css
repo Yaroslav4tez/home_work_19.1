@@ -1,5 +1,14 @@
 * {
     background-color: rgb(30, 30, 146);
+    size: 10px;
+}
+
+html {
+  font-size: 20px;
+}
+
+* {
+  background-color: rgb(30, 30, 146);
 }
 
 body {
@@ -11,8 +20,12 @@ main {
     display: flex;
     width: 60%;
     height: 60%;
-    border: 2px solid;
+    border: 2px solid rgb(12, 12, 21);
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 
 #picture-of-Weather {
     width: 100px;
@@ -20,15 +33,41 @@ main {
 }
 
 #container1 {
-    border: 1px solid;
+    padding-top: 70px;
     width: 50%;
     text-align: center;
     color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
 }
 
 #container2 {
-    border: 1px solid;
+    padding-top: 20px;
     width: 50%;
     text-align: center;
     color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
 }
+
+#btnForReload {
+    color: aliceblue;
+    background-color: rgb(31, 25, 67);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#btnForReload:hover {
+    background-color: rgb(50, 45, 90);
+}
+
+
+
+
