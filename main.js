@@ -41,7 +41,7 @@ setInterval(updateClock, 1000);
 //for asynx
 const city = 'Kyiv';
 const countryCode = 'UA';
-const userId = '61d04f27b394ae610270f09eb865a7c8';
+const userId = '740057e41bca091ec8828af7c646a0c9';
 
 const askServer = `https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&appid=${userId}&units=metric`;
 
